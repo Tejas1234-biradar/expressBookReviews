@@ -1,0 +1,7 @@
+Task 10 — Delete a book review
+
+Command:
+curl -sS -X DELETE http://localhost:5000/customer/auth/review/1 -H 'Authorization: Bearer <TOKEN_FROM_LOGIN>'
+
+Output:
+{"message":"Review deleted successfully."}

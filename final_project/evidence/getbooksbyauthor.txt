@@ -1,0 +1,7 @@
+Task 4 — Get books by author
+
+Command:
+curl -sS 'http://localhost:5000/author/Chinua%20Achebe'
+
+Output:
+[{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{}}]

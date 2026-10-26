@@ -1,0 +1,14 @@
+Task 1 — GitHub repository status
+
+Command:
+curl -sS https://api.github.com/repos/ibm-developer-skills-network/expressBookReviews
+
+Output (selected fields):
+{
+  "full_name": "ibm-developer-skills-network/expressBookReviews",
+  "fork": false
+}
+
+This is the upstream repository, not a personal fork, so this output does not
+meet the task's fork-verification criterion. A personal fork URL/account is
+needed to provide truthful fork evidence.

@@ -1,0 +1,10 @@
+Task 8 — Log in as the registered user
+
+Command:
+curl -sS -X POST http://localhost:5000/customer/login -H 'Content-Type: application/json' -d '{"username":"assignment_student_2026","password":"bookreviews123"}'
+
+Output:
+{"message":"Login successful.","accessToken":"[redacted]"}
+
+The access token is redacted in this checked-in transcript. Use the token
+returned by the login request as the Bearer token for authenticated requests.
